@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="icon" type="image/x-icon" href="./Icon/i.png">
+</head>
+<style>
+    body{
+        background-image: url("./Image/login.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    form{
+        width: 400px;
+        height: 400px;
+        background-color: D5DCE3;
+        border: 1px solid black;
+        border-radius: 30px;
+        text-align: center;
+        padding: 80px;
+        margin: 85px 450px;
+        box-shadow: 2px 2px;
+        background-image: "sign in.jpg";
+    }
+    h1{
+        color: black;
+        margin-top: 5px;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    button{
+        border-radius: 5px;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+        border-style: outset;
+    }
+    label{
+        font-weight: bold;
+    }
+    p{
+        font-weight: bold;
+    }
+</style>
+<body>
+    <form action="abc2.html" autocomplete="off">
+        <h1>Create New Account</h1><br>
+        <label for="a1">Name:</label>
+        <input type="text" id="a1" required placeholder="Ex.John"> <br> <br>
+
+        <label for="a2">Email-id:</label>
+        <input type="email" id="a2" required placeholder="Ex.abc@test.com"><br> <br>
+        
+        <label for="a3">Password:</label>
+        <input type="password" id="a4" required placeholder="Password"><br> <br>
+
+        <label for="a4">Re-Password:</label>
+        <input type="password" id="a4" required placeholder="Re-Password"><br> <br>
+
+        <p>By creating an account you agree our <br><a href="#">Terms and Condition</a></p><br>
+
+        <button type="submit">Sign In</button> 
+        <button type="reset">Reset</button> <br><br>
+        
+        <p>Already have account? <a href="login.html">Login</a></p>
+    </form>
+    
+</body>
+</html>

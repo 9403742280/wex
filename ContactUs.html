@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="./Icon/i.png">
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(./Image/contact\ us.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-color: black; */
+        }
+        h1{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 70px;
+            color: white;
+            text-shadow: 2px 2px 5px;
+        }
+        h2{
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+            text-align: left;
+        }
+        p{
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            padding-left: 53px;
+            text-align: left ;
+        }
+        img{
+            padding: 10px;
+            margin-left: 260px;
+        }
+        header{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    float: right;
+}
+form{
+    width: 600px;
+    height: 450px;
+    color: white;
+    border: 1px solid white;
+    padding-left: 20px;
+}
+input{
+    width: 95%;
+}
+textarea{
+    width: 95%;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.logo{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px;
+}
+.Menu a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+a:hover{
+   color: aqua;
+}
+    </style>
+    <body>
+        <nav>
+            <div class="logo">I-Store</div>
+            <div class="Menu">
+                    <a href="Project.html">HOME</a>
+                    <a href="Laptop.html">LAPTOP</a>
+                    <a href="ContactUs.html">CONTACT US</a>
+                    <a href="SIGNIN.html">LOG IN</a>
+            </div>
+            <div>
+                <input type="text" name="search" id="search" placeholder="search">
+            </div>
+            </nav>
+        <div> <br><br><br>
+        <h1>Contact Us</h1>
+        <div class="container">
+            
+            <form action="form">
+                <h2 style="text-align: center;">Send Message</h2>
+                <label for="a1">Name: <br></label>
+                <input type="text" id="a1" required placeholder="Ex.John"> <br> <br>
+
+                <label for="a2">Email-id: <br></label>
+                <input type="email" id="a2" required placeholder="Ex.abc@test.com"><br> <br>
+
+                <label for="a1">Comment: <br></label>
+                <textarea style="height: 180px;" name=""></textarea> <br> <br>
+            </form>
+        </div>
+            <section>
+                <h2> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                  </svg> Address</h2>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+            </section>
+            <section>
+                <h2> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                    <path d="M15 7a2 2 0 0 1 2 2" />
+                    <path d="M15 3a6 6 0 0 1 6 6" />
+                  </svg> Phone No</h2>
+                <p>+91 1234567890</p>
+            </section>
+            <section>
+                <h2> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-send" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                    <path d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5" />
+                  </svg> Email-Id</h2>
+                <p>loren@gmail.com</p>
+            </section>
+            <hr>
+            <section>
+                    <div>
+                        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S1561012312%3A1668237773260272&authuser=0&continue=https%3A%2F%2Fmail.google.com&ec=GAlAFw&hl=en&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession"><img src="./Icon/icons8-gmail-logo.svg" alt=""></a>
+                        <a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjY4MjM3ODQ5LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D"><img src="./Icon/icons8-facebook.svg" alt=""></a>
+                        <a href="https://www.instagram.com/accounts/login/?source=auth_switcher"><img src="./Icon/icons8-instagram.svg" alt=""></a>
+                        <a href="https://www.youtube.com/"><img src="./Icon/icons8-youtube.svg" alt=""></a>
+                    </div>
+                </section>
+               
+    </div>
+</body>
+</html>
